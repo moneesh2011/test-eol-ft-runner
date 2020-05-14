@@ -1,0 +1,100 @@
+[
+  {
+    "description": "  As an everyday user\n  I want to search for cucumber-js documentation on google.com\n  So that I can read them for my automation testing",
+    "keyword": "Feature",
+    "name": "Google Search",
+    "line": 1,
+    "id": "google-search",
+    "tags": [],
+    "uri": "test/features/sample.feature",
+    "elements": [
+      {
+        "id": "google-search;google-search-for-cucumber-js-documentation",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Google Search for cucumber-js documentation",
+        "tags": [
+          {
+            "name": "@sample",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "Projects/Test-EOL-FT-RUNNER/node_modules/cucumber/lib/support_code_library_builder/index.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "User is in the Google webpage",
+            "match": {
+              "location": "test/step_definitions/sample.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5151000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User searches for \"cucumber-js documentation\"",
+            "match": {
+              "location": "test/step_definitions/sample.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "User should see \"cucumber.io\" in the search results",
+            "match": {
+              "location": "test/step_definitions/sample.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 806000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Projects/Test-EOL-FT-RUNNER/node_modules/cucumber/lib/support_code_library_builder/index.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Projects/Test-EOL-FT-RUNNER/node_modules/cucumber/lib/support_code_library_builder/index.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1577000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

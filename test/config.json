@@ -1,0 +1,8 @@
+{
+    "configurations": {
+        "featurePath": [ "test/features/" ],
+        "stepDefinitionPath": [ "test/step_definitions/" ],
+        "supportFolderPath": [ "test/support" ],
+        "reportFolderPath": "test/reports"
+    }
+}

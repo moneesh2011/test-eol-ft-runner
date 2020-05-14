@@ -1,0 +1,21 @@
+{
+  "name": "eol-ft-runner-tests",
+  "version": "1.0.0",
+  "description": "Sample test project using eol-ft-runner package",
+  "scripts": {
+    "ft": "./node_modules/eol-ft-runner/bin/ft-runner",
+    "execute:ft": "npm run ft -- --config=test/config.json --browser=chrome --tags=@sample"
+  },
+  "keywords": [
+    "eol-ft-runner",
+    "tests",
+    "automation"
+  ],
+  "author": "Moneesh Prathap",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^81.0.0",
+    "eol-ft-runner": "^0.1.6",
+    "geckodriver": "^1.19.1"
+  }
+}
