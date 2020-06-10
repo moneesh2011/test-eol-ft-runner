@@ -7,11 +7,11 @@
             <property name="URI" value="test/features/sample.feature">
             </property>
         </properties>
-        <testcase name="Given User is in the Google webpage" classname="google-search;google-search-for-cucumber-js-documentation" time="2.256">
+        <testcase name="Given User is in the Google webpage" classname="google-search;google-search-for-cucumber-js-documentation" time="2.136">
         </testcase>
-        <testcase name="When User searches for &quot;cucumber-js documentation&quot;" classname="google-search;google-search-for-cucumber-js-documentation" time="0.147">
+        <testcase name="When User searches for &quot;cucumber-js documentation&quot;" classname="google-search;google-search-for-cucumber-js-documentation" time="0.144">
         </testcase>
-        <testcase name="Then User should see &quot;cucumber.io&quot; in the search results" classname="google-search;google-search-for-cucumber-js-documentation" time="0.833">
+        <testcase name="Then User should see &quot;cucumber.io&quot; in the search results" classname="google-search;google-search-for-cucumber-js-documentation" time="0.923">
         </testcase>
     </testsuite>
 </testsuites>

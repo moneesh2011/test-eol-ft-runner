@@ -1,0 +1,112 @@
+[
+  {
+    "description": "  As an everyday user\n  I want to search for cucumber-js documentation on google.com\n  So that I can read them for my automation testing",
+    "keyword": "Feature",
+    "name": "Google Search",
+    "line": 1,
+    "id": "google-search",
+    "tags": [],
+    "uri": "test/features/sample.feature",
+    "elements": [
+      {
+        "id": "google-search;google-search-for-cucumber-js-documentation",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Google Search for cucumber-js documentation",
+        "tags": [
+          {
+            "name": "@sample",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "test/support/hooks.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "User is in the Google webpage",
+            "match": {
+              "location": "test/step_definitions/sample.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1318000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User searches for \"cucumber-js documentation\"",
+            "match": {
+              "location": "test/step_definitions/sample.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 348000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "User should see \"cucumber.io\" in the search results",
+            "match": {
+              "location": "test/step_definitions/sample.js:30"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 30278000000,
+              "error_message": "Error occurred in waitUntilTextContains(\"className\", \"g\", \"cucumber.io\")\nError occurred in driver.waitForElements(\"className\", \"g\")\nWaiting for at least one element to be located By(css selector, .g)\nWait timed out after 30204ms\nCookies from 'this.driver.manage().getCookies()' cmd: [{\"expiry\":1594369070,\"secure\":true,\"domain\":\".google.com\",\"httpOnly\":false,\"value\":\"2020-6-10-8\",\"path\":\"/\",\"name\":\"1P_JAR\"},{\"expiry\":1654849070,\"secure\":true,\"domain\":\".google.com\",\"httpOnly\":true,\"value\":\"AHWqTUnXH4Cn0qQbA45_F0JW7NZUpuTY0kYfLVec1j6CXgj6DUQHvmLFfo_rufG5\",\"path\":\"/\",\"name\":\"ANID\"},{\"expiry\":1607588269,\"secure\":true,\"domain\":\".google.com\",\"httpOnly\":true,\"value\":\"204=kkBs-BaxVPcR7pTlLMQDH9id1Z9bDgYl6mwlSefG0Z-l6dN1PqOgByNIEUnpjGW5rYAsglzDUAQfEcUVSI9fe2nqwJttRU8Vf3scyzAaHl2LMKTPmnbfBOZycVsgs0INK4csdXKvfJ98RyKXQO15ftg7BWHx4WHblgmoT3jw-GY\",\"path\":\"/\",\"name\":\"NID\"}]\nCurrent URL : https://www.google.com/\nCurrent Time: 2020-06-10 01:48:202020\nTimeoutError: Error occurred in driver.waitForElements(\"className\", \"g\")\nWaiting for at least one element to be located By(css selector, .g)\nWait timed out after 30204ms\nCookies from 'this.driver.manage().getCookies()' cmd: [{\"expiry\":1594369070,\"secure\":true,\"domain\":\".google.com\",\"httpOnly\":false,\"value\":\"2020-6-10-8\",\"path\":\"/\",\"name\":\"1P_JAR\"},{\"expiry\":1654849070,\"secure\":true,\"domain\":\".google.com\",\"httpOnly\":true,\"value\":\"AHWqTUnXH4Cn0qQbA45_F0JW7NZUpuTY0kYfLVec1j6CXgj6DUQHvmLFfo_rufG5\",\"path\":\"/\",\"name\":\"ANID\"},{\"expiry\":1607588269,\"secure\":true,\"domain\":\".google.com\",\"httpOnly\":true,\"value\":\"204=kkBs-BaxVPcR7pTlLMQDH9id1Z9bDgYl6mwlSefG0Z-l6dN1PqOgByNIEUnpjGW5rYAsglzDUAQfEcUVSI9fe2nqwJttRU8Vf3scyzAaHl2LMKTPmnbfBOZycVsgs0INK4csdXKvfJ98RyKXQO15ftg7BWHx4WHblgmoT3jw-GY\",\"path\":\"/\",\"name\":\"NID\"}]\nCurrent URL : https://www.google.com/\nCurrent Time: 2020-06-10 01:48:202020\n    at /Users/malmon/GDS/test-eol-ft-runner/node_modules/selenium-webdriver/lib/webdriver.js:842:17\n    at processTicksAndRejections (internal/process/task_queues.js:89:5)Error\n    at Driver.waitForElements (/Users/malmon/GDS/test-eol-ft-runner/node_modules/eol-ft-runner/utils/driver.js:57:48)\n    at processTicksAndRejections (internal/process/task_queues.js:89:5)Error\n    at /Users/malmon/GDS/test-eol-ft-runner/node_modules/eol-ft-runner/utils/driver.js:319:50\n    at processTicksAndRejections (internal/process/task_queues.js:89:5)\n    at async CustomWorld.<anonymous> (/Users/malmon/GDS/test-eol-ft-runner/test/step_definitions/sample.js:31:3)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "test/support/hooks.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/eol-ft-runner/utils/hooks.js:4"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2000000,
+              "error_message": "UnknownCommandError: The command 'POST /session/E268024A-7C54-4876-A2D9-E42F45C3C777/se/log' was not found.\n    at Object.throwDecodedError (/Users/malmon/GDS/test-eol-ft-runner/node_modules/selenium-webdriver/lib/error.js:550:15)\n    at parseHttpResponse (/Users/malmon/GDS/test-eol-ft-runner/node_modules/selenium-webdriver/lib/http.js:565:13)\n    at Executor.execute (/Users/malmon/GDS/test-eol-ft-runner/node_modules/selenium-webdriver/lib/http.js:491:26)\n    at processTicksAndRejections (internal/process/task_queues.js:89:5)\n    at async thenableWebDriverProxy.execute (/Users/malmon/GDS/test-eol-ft-runner/node_modules/selenium-webdriver/lib/webdriver.js:700:17)\n    at async Driver.getBrowserConsoleLogs (/Users/malmon/GDS/test-eol-ft-runner/node_modules/eol-ft-runner/utils/driver.js:499:18)\n    at async CustomWorld.<anonymous> (/Users/malmon/GDS/test-eol-ft-runner/node_modules/eol-ft-runner/utils/hooks.js:12:48)"
+            },
+            "embeddings": [
+              {
+                "data": "TimeoutError",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "Error occurred in waitUntilTextContains(\"className\", \"g\", \"cucumber.io\")\nError occurred in driver.waitForElements(\"className\", \"g\")\nWaiting for at least one element to be located By(css selector, .g)\nWait timed out after 30204ms\nCookies from 'this.driver.manage().getCookies()' cmd: [{\"expiry\":1594369070,\"secure\":true,\"domain\":\".google.com\",\"httpOnly\":false,\"value\":\"2020-6-10-8\",\"path\":\"/\",\"name\":\"1P_JAR\"},{\"expiry\":1654849070,\"secure\":true,\"domain\":\".google.com\",\"httpOnly\":true,\"value\":\"AHWqTUnXH4Cn0qQbA45_F0JW7NZUpuTY0kYfLVec1j6CXgj6DUQHvmLFfo_rufG5\",\"path\":\"/\",\"name\":\"ANID\"},{\"expiry\":1607588269,\"secure\":true,\"domain\":\".google.com\",\"httpOnly\":true,\"value\":\"204=kkBs-BaxVPcR7pTlLMQDH9id1Z9bDgYl6mwlSefG0Z-l6dN1PqOgByNIEUnpjGW5rYAsglzDUAQfEcUVSI9fe2nqwJttRU8Vf3scyzAaHl2LMKTPmnbfBOZycVsgs0INK4csdXKvfJ98RyKXQO15ftg7BWHx4WHblgmoT3jw-GY\",\"path\":\"/\",\"name\":\"NID\"}]\nCurrent URL : https://www.google.com/\nCurrent Time: 2020-06-10 01:48:202020",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

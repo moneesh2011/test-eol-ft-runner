@@ -1,6 +1,6 @@
 {
   "name": "eol-ft-runner-tests",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Sample test project using eol-ft-runner package",
   "scripts": {
     "ft": "./node_modules/eol-ft-runner/bin/ft-runner",
@@ -15,7 +15,7 @@
   "license": "ISC",
   "devDependencies": {
     "chromedriver": "latest",
-    "eol-ft-runner": "^0.2.3",
+    "eol-ft-runner": "^0.2.8",
     "geckodriver": "^1.19.1"
   }
 }

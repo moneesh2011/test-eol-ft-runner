@@ -1,7 +1,7 @@
 ## Sample project using eol-ft-runner
 **eol-ft-runner**  ==>  `Selenium + Appium + Cucumber-js`
 
-Github repository: https://github.com/moneesh2011/eol-ft-runner.git
+Github repository: https://www.github.com/moneesh2011/eol-ft-runner
 
 #### Install
 ``` shell

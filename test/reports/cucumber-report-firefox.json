@@ -25,11 +25,11 @@
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "Projects/Test-EOL-FT-RUNNER/node_modules/cucumber/lib/support_code_library_builder/index.js:62"
+              "location": "test/support/hooks.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 2000000
             }
           },
           {
@@ -38,11 +38,11 @@
             "line": 9,
             "name": "User is in the Google webpage",
             "match": {
-              "location": "test/step_definitions/sample.js:16"
+              "location": "test/step_definitions/sample.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 5151000000
+              "duration": 3681000000
             }
           },
           {
@@ -51,11 +51,11 @@
             "line": 10,
             "name": "User searches for \"cucumber-js documentation\"",
             "match": {
-              "location": "test/step_definitions/sample.js:20"
+              "location": "test/step_definitions/sample.js:24"
             },
             "result": {
               "status": "passed",
-              "duration": 76000000
+              "duration": 119000000
             }
           },
           {
@@ -64,33 +64,33 @@
             "line": 11,
             "name": "User should see \"cucumber.io\" in the search results",
             "match": {
-              "location": "test/step_definitions/sample.js:26"
+              "location": "test/step_definitions/sample.js:30"
             },
             "result": {
               "status": "passed",
-              "duration": 806000000
+              "duration": 796000000
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "Projects/Test-EOL-FT-RUNNER/node_modules/cucumber/lib/support_code_library_builder/index.js:62"
+              "location": "test/support/hooks.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "Projects/Test-EOL-FT-RUNNER/node_modules/cucumber/lib/support_code_library_builder/index.js:62"
+              "location": "node_modules/eol-ft-runner/utils/hooks.js:4"
             },
             "result": {
               "status": "passed",
-              "duration": 1577000000
+              "duration": 2360000000
             }
           }
         ]
