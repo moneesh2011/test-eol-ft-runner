@@ -1,39 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="google-search;google-search-for-cucumber-js-documentation" tests="3" failures="1" skipped="0">
-        <properties>
-            <property name="@sample" value="true">
-            </property>
-            <property name="URI" value="test/features/sample.feature">
-            </property>
-        </properties>
-        <testcase name="Given User is in the Google webpage" classname="google-search;google-search-for-cucumber-js-documentation" time="2.497">
-        </testcase>
-        <testcase name="When User searches for &quot;cucumber-js documentation&quot;" classname="google-search;google-search-for-cucumber-js-documentation" time="0.275">
-        </testcase>
-        <testcase name="Then User should see &quot;cucumber.io&quot; in the search results" classname="google-search;google-search-for-cucumber-js-documentation" time="30.865">
-            <failure message="Error occurred in waitUntilTextContains(&quot;className&quot;, &quot;g&quot;, &quot;cucumber.io&quot;)">Error occurred in waitUntilTextContains(&quot;className&quot;, &quot;g&quot;, &quot;cucumber.io&quot;)
-Error occurred in driver.waitForElements(&quot;className&quot;, &quot;g&quot;)
-Waiting for at least one element to be located By(css selector, .g)
-Wait timed out after 30194ms
-Cookies from &apos;this.driver.manage().getCookies()&apos; cmd: [{&quot;domain&quot;:&quot;.google.com&quot;,&quot;expiry&quot;:1595126612,&quot;httpOnly&quot;:false,&quot;name&quot;:&quot;1P_JAR&quot;,&quot;path&quot;:&quot;/&quot;,&quot;secure&quot;:true,&quot;value&quot;:&quot;2020-6-19-2&quot;},{&quot;domain&quot;:&quot;www.google.com&quot;,&quot;expiry&quot;:1592621012,&quot;httpOnly&quot;:false,&quot;name&quot;:&quot;UULE&quot;,&quot;path&quot;:&quot;/&quot;,&quot;secure&quot;:false,&quot;value&quot;:&quot;a+cm9sZToxIHByb2R1Y2VyOjEyIHByb3ZlbmFuY2U6NiB0aW1lc3RhbXA6MTU5MjUzNDYxMjEyNjAwMCBsYXRsbmd7bGF0aXR1ZGVfZTc6MTM1MjA4MzAgbG9uZ2l0dWRlX2U3OjEwMzgxOTgzNjB9IHJhZGl1czoxMDQ0NzAwMA==&quot;},{&quot;domain&quot;:&quot;.google.com&quot;,&quot;expiry&quot;:1608345811,&quot;httpOnly&quot;:true,&quot;name&quot;:&quot;NID&quot;,&quot;path&quot;:&quot;/&quot;,&quot;sameSite&quot;:&quot;None&quot;,&quot;secure&quot;:true,&quot;value&quot;:&quot;204=0T1zTqkCAAMUMvNMC8gx6yhacYdwOMFwIOUOs63mXPxz2Ls4WgUgZSznSH-vxACJ3xBIfkLGKffbAwMjuEDiQ89rlNSSbP7qN2ybOhk2p0z7dVt2mORNjsbsydQKp2HEz3foJOe_cen-j5qyvJRR39qmynIqnc6F7dg1o3LVy6o&quot;}]
-Current URL : https://www.google.com/
-Current Time: 2020-06-19 08:14:02022
-TimeoutError: Error occurred in driver.waitForElements(&quot;className&quot;, &quot;g&quot;)
-Waiting for at least one element to be located By(css selector, .g)
-Wait timed out after 30194ms
-Cookies from &apos;this.driver.manage().getCookies()&apos; cmd: [{&quot;domain&quot;:&quot;.google.com&quot;,&quot;expiry&quot;:1595126612,&quot;httpOnly&quot;:false,&quot;name&quot;:&quot;1P_JAR&quot;,&quot;path&quot;:&quot;/&quot;,&quot;secure&quot;:true,&quot;value&quot;:&quot;2020-6-19-2&quot;},{&quot;domain&quot;:&quot;www.google.com&quot;,&quot;expiry&quot;:1592621012,&quot;httpOnly&quot;:false,&quot;name&quot;:&quot;UULE&quot;,&quot;path&quot;:&quot;/&quot;,&quot;secure&quot;:false,&quot;value&quot;:&quot;a+cm9sZToxIHByb2R1Y2VyOjEyIHByb3ZlbmFuY2U6NiB0aW1lc3RhbXA6MTU5MjUzNDYxMjEyNjAwMCBsYXRsbmd7bGF0aXR1ZGVfZTc6MTM1MjA4MzAgbG9uZ2l0dWRlX2U3OjEwMzgxOTgzNjB9IHJhZGl1czoxMDQ0NzAwMA==&quot;},{&quot;domain&quot;:&quot;.google.com&quot;,&quot;expiry&quot;:1608345811,&quot;httpOnly&quot;:true,&quot;name&quot;:&quot;NID&quot;,&quot;path&quot;:&quot;/&quot;,&quot;sameSite&quot;:&quot;None&quot;,&quot;secure&quot;:true,&quot;value&quot;:&quot;204=0T1zTqkCAAMUMvNMC8gx6yhacYdwOMFwIOUOs63mXPxz2Ls4WgUgZSznSH-vxACJ3xBIfkLGKffbAwMjuEDiQ89rlNSSbP7qN2ybOhk2p0z7dVt2mORNjsbsydQKp2HEz3foJOe_cen-j5qyvJRR39qmynIqnc6F7dg1o3LVy6o&quot;}]
-Current URL : https://www.google.com/
-Current Time: 2020-06-19 08:14:02022
-    at /Users/malmon/GDS/test-eol-ft-runner/node_modules/selenium-webdriver/lib/webdriver.js:842:17
-    at processTicksAndRejections (internal/process/task_queues.js:89:5)Error
-    at Driver.waitForElements (/Users/malmon/GDS/test-eol-ft-runner/node_modules/eol-ft-runner/utils/driver.js:70:48)
-    at processTicksAndRejections (internal/process/task_queues.js:89:5)Error
-    at /Users/malmon/GDS/test-eol-ft-runner/node_modules/eol-ft-runner/utils/driver.js:385:50
-    at processTicksAndRejections (internal/process/task_queues.js:89:5)
-    at async CustomWorld.&lt;anonymous&gt; (/Users/malmon/GDS/test-eol-ft-runner/test/step_definitions/sample.js:31:3)</failure>
-        </testcase>
-    </testsuite>
     <testsuite name="google-search;google-search-for-cucumber-js-documentation" tests="3" failures="0" skipped="0">
         <properties>
             <property name="@sample" value="true">
@@ -41,79 +7,11 @@ Current Time: 2020-06-19 08:14:02022
             <property name="URI" value="test/features/sample.feature">
             </property>
         </properties>
-        <testcase name="Given User is in the Google webpage" classname="google-search;google-search-for-cucumber-js-documentation" time="4.566">
+        <testcase name="Given User is in the Google webpage" classname="google-search;google-search-for-cucumber-js-documentation" time="2.109">
         </testcase>
-        <testcase name="When User searches for &quot;cucumber-js documentation&quot;" classname="google-search;google-search-for-cucumber-js-documentation" time="0.113">
+        <testcase name="When User searches for &quot;cucumber-js documentation&quot;" classname="google-search;google-search-for-cucumber-js-documentation" time="0.135">
         </testcase>
-        <testcase name="Then User should see &quot;cucumber.io&quot; in the search results" classname="google-search;google-search-for-cucumber-js-documentation" time="0.815">
-        </testcase>
-    </testsuite>
-    <testsuite name="google-search;google-search-for-cucumber-js-documentation" tests="3" failures="1" skipped="0">
-        <properties>
-            <property name="@sample" value="true">
-            </property>
-            <property name="URI" value="test/features/sample.feature">
-            </property>
-        </properties>
-        <testcase name="Given User is in the Google webpage" classname="google-search;google-search-for-cucumber-js-documentation" time="2.772">
-        </testcase>
-        <testcase name="When User searches for &quot;cucumber-js documentation&quot;" classname="google-search;google-search-for-cucumber-js-documentation" time="0.289">
-        </testcase>
-        <testcase name="Then User should see &quot;cucumber.io&quot; in the search results" classname="google-search;google-search-for-cucumber-js-documentation" time="30.721">
-            <failure message="Error occurred in waitUntilTextContains(&quot;className&quot;, &quot;g&quot;, &quot;cucumber.io&quot;)">Error occurred in waitUntilTextContains(&quot;className&quot;, &quot;g&quot;, &quot;cucumber.io&quot;)
-Error occurred in driver.waitForElements(&quot;className&quot;, &quot;g&quot;)
-Waiting for at least one element to be located By(css selector, .g)
-Wait timed out after 30120ms
-Cookies from &apos;this.driver.manage().getCookies()&apos; cmd: [{&quot;domain&quot;:&quot;.google.com&quot;,&quot;expiry&quot;:1655606613,&quot;httpOnly&quot;:true,&quot;name&quot;:&quot;ANID&quot;,&quot;path&quot;:&quot;/&quot;,&quot;sameSite&quot;:&quot;None&quot;,&quot;secure&quot;:true,&quot;value&quot;:&quot;AHWqTUmyTyxbedE3XculugTx74TltQ1KIvLHbCg0GMs6LkMPycc4hvuEBWlBbe1-&quot;},{&quot;domain&quot;:&quot;.google.com&quot;,&quot;expiry&quot;:1595126613,&quot;httpOnly&quot;:false,&quot;name&quot;:&quot;1P_JAR&quot;,&quot;path&quot;:&quot;/&quot;,&quot;secure&quot;:true,&quot;value&quot;:&quot;2020-6-19-2&quot;},{&quot;domain&quot;:&quot;www.google.com&quot;,&quot;expiry&quot;:1592621015,&quot;httpOnly&quot;:false,&quot;name&quot;:&quot;UULE&quot;,&quot;path&quot;:&quot;/&quot;,&quot;secure&quot;:false,&quot;value&quot;:&quot;a+cm9sZToxIHByb2R1Y2VyOjEyIHByb3ZlbmFuY2U6NiB0aW1lc3RhbXA6MTU5MjUzNDYxNTUyMzAwMCBsYXRsbmd7bGF0aXR1ZGVfZTc6MTI5ODQwMDAgbG9uZ2l0dWRlX2U3OjEwMzg1NDUwMDB9IHJhZGl1czo0NDE3MDY2MDA=&quot;},{&quot;domain&quot;:&quot;.google.com&quot;,&quot;expiry&quot;:1608345811,&quot;httpOnly&quot;:true,&quot;name&quot;:&quot;NID&quot;,&quot;path&quot;:&quot;/&quot;,&quot;sameSite&quot;:&quot;None&quot;,&quot;secure&quot;:true,&quot;value&quot;:&quot;204=U0Jrt-WMTkPHsEfHFYSA7Bf5sGmW4IfWfc6MmUUuQZ7Yx1HhSTZu6W0w8CIBsfzCqPXLuVlo5638dlm0IyZ8oV7UBJC4KkWNUZyh3rgxUttbFGfkb-Kou9vy2umVw-SbKE4RzxqA04F7OiD-9dJW4yvLoaKhurZoNUq3Ygpr2h0&quot;}]
-Current URL : https://www.google.com/
-Current Time: 2020-06-19 08:14:03033
-TimeoutError: Error occurred in driver.waitForElements(&quot;className&quot;, &quot;g&quot;)
-Waiting for at least one element to be located By(css selector, .g)
-Wait timed out after 30120ms
-Cookies from &apos;this.driver.manage().getCookies()&apos; cmd: [{&quot;domain&quot;:&quot;.google.com&quot;,&quot;expiry&quot;:1655606613,&quot;httpOnly&quot;:true,&quot;name&quot;:&quot;ANID&quot;,&quot;path&quot;:&quot;/&quot;,&quot;sameSite&quot;:&quot;None&quot;,&quot;secure&quot;:true,&quot;value&quot;:&quot;AHWqTUmyTyxbedE3XculugTx74TltQ1KIvLHbCg0GMs6LkMPycc4hvuEBWlBbe1-&quot;},{&quot;domain&quot;:&quot;.google.com&quot;,&quot;expiry&quot;:1595126613,&quot;httpOnly&quot;:false,&quot;name&quot;:&quot;1P_JAR&quot;,&quot;path&quot;:&quot;/&quot;,&quot;secure&quot;:true,&quot;value&quot;:&quot;2020-6-19-2&quot;},{&quot;domain&quot;:&quot;www.google.com&quot;,&quot;expiry&quot;:1592621015,&quot;httpOnly&quot;:false,&quot;name&quot;:&quot;UULE&quot;,&quot;path&quot;:&quot;/&quot;,&quot;secure&quot;:false,&quot;value&quot;:&quot;a+cm9sZToxIHByb2R1Y2VyOjEyIHByb3ZlbmFuY2U6NiB0aW1lc3RhbXA6MTU5MjUzNDYxNTUyMzAwMCBsYXRsbmd7bGF0aXR1ZGVfZTc6MTI5ODQwMDAgbG9uZ2l0dWRlX2U3OjEwMzg1NDUwMDB9IHJhZGl1czo0NDE3MDY2MDA=&quot;},{&quot;domain&quot;:&quot;.google.com&quot;,&quot;expiry&quot;:1608345811,&quot;httpOnly&quot;:true,&quot;name&quot;:&quot;NID&quot;,&quot;path&quot;:&quot;/&quot;,&quot;sameSite&quot;:&quot;None&quot;,&quot;secure&quot;:true,&quot;value&quot;:&quot;204=U0Jrt-WMTkPHsEfHFYSA7Bf5sGmW4IfWfc6MmUUuQZ7Yx1HhSTZu6W0w8CIBsfzCqPXLuVlo5638dlm0IyZ8oV7UBJC4KkWNUZyh3rgxUttbFGfkb-Kou9vy2umVw-SbKE4RzxqA04F7OiD-9dJW4yvLoaKhurZoNUq3Ygpr2h0&quot;}]
-Current URL : https://www.google.com/
-Current Time: 2020-06-19 08:14:03033
-    at /Users/malmon/GDS/test-eol-ft-runner/node_modules/selenium-webdriver/lib/webdriver.js:842:17
-    at processTicksAndRejections (internal/process/task_queues.js:89:5)Error
-    at Driver.waitForElements (/Users/malmon/GDS/test-eol-ft-runner/node_modules/eol-ft-runner/utils/driver.js:70:48)
-    at processTicksAndRejections (internal/process/task_queues.js:89:5)Error
-    at /Users/malmon/GDS/test-eol-ft-runner/node_modules/eol-ft-runner/utils/driver.js:385:50
-    at processTicksAndRejections (internal/process/task_queues.js:89:5)
-    at async CustomWorld.&lt;anonymous&gt; (/Users/malmon/GDS/test-eol-ft-runner/test/step_definitions/sample.js:31:3)</failure>
-        </testcase>
-    </testsuite>
-    <testsuite name="google-search;google-search-for-cucumber-js-documentation" tests="3" failures="1" skipped="0">
-        <properties>
-            <property name="@sample" value="true">
-            </property>
-            <property name="URI" value="test/features/sample.feature">
-            </property>
-        </properties>
-        <testcase name="Given User is in the Google webpage" classname="google-search;google-search-for-cucumber-js-documentation" time="2.015">
-        </testcase>
-        <testcase name="When User searches for &quot;cucumber-js documentation&quot;" classname="google-search;google-search-for-cucumber-js-documentation" time="0.596">
-        </testcase>
-        <testcase name="Then User should see &quot;cucumber.io&quot; in the search results" classname="google-search;google-search-for-cucumber-js-documentation" time="30.105">
-            <failure message="Error occurred in waitUntilTextContains(&quot;className&quot;, &quot;g&quot;, &quot;cucumber.io&quot;)">Error occurred in waitUntilTextContains(&quot;className&quot;, &quot;g&quot;, &quot;cucumber.io&quot;)
-Error occurred in driver.waitForElements(&quot;className&quot;, &quot;g&quot;)
-Waiting for at least one element to be located By(css selector, .g)
-Wait timed out after 30028ms
-Cookies from &apos;this.driver.manage().getCookies()&apos; cmd: [{&quot;expiry&quot;:1595126612,&quot;secure&quot;:true,&quot;domain&quot;:&quot;.google.com&quot;,&quot;httpOnly&quot;:false,&quot;value&quot;:&quot;2020-6-19-2&quot;,&quot;path&quot;:&quot;/&quot;,&quot;name&quot;:&quot;1P_JAR&quot;},{&quot;expiry&quot;:1655606612,&quot;secure&quot;:true,&quot;domain&quot;:&quot;.google.com&quot;,&quot;httpOnly&quot;:true,&quot;value&quot;:&quot;AHWqTUlWlcNEPKwdkZTl3Tsz0oyHqYLiMnddnRnxpON3fckIRjgkajLScIuvhqir&quot;,&quot;path&quot;:&quot;/&quot;,&quot;name&quot;:&quot;ANID&quot;},{&quot;expiry&quot;:1608345811,&quot;secure&quot;:true,&quot;domain&quot;:&quot;.google.com&quot;,&quot;httpOnly&quot;:true,&quot;value&quot;:&quot;204=pqNuqf0QVu1KXkzs-fIVvwHEU6_8_7UEPqPi3PzwU1okt4qR-7wcCvRbD4lzceX1ERZtadKR2uWSYZtdytsWnFDyJR_Ds-2_JlPuy5IFvEQXR4h_igNPnnwbvY7Ro8KB9SVQI53FBkaqu9PXvlYG2C8hq3qLesyBXY2sogr2r1o&quot;,&quot;path&quot;:&quot;/&quot;,&quot;name&quot;:&quot;NID&quot;}]
-Current URL : https://www.google.com/
-Current Time: 2020-06-19 08:14:02022
-TimeoutError: Error occurred in driver.waitForElements(&quot;className&quot;, &quot;g&quot;)
-Waiting for at least one element to be located By(css selector, .g)
-Wait timed out after 30028ms
-Cookies from &apos;this.driver.manage().getCookies()&apos; cmd: [{&quot;expiry&quot;:1595126612,&quot;secure&quot;:true,&quot;domain&quot;:&quot;.google.com&quot;,&quot;httpOnly&quot;:false,&quot;value&quot;:&quot;2020-6-19-2&quot;,&quot;path&quot;:&quot;/&quot;,&quot;name&quot;:&quot;1P_JAR&quot;},{&quot;expiry&quot;:1655606612,&quot;secure&quot;:true,&quot;domain&quot;:&quot;.google.com&quot;,&quot;httpOnly&quot;:true,&quot;value&quot;:&quot;AHWqTUlWlcNEPKwdkZTl3Tsz0oyHqYLiMnddnRnxpON3fckIRjgkajLScIuvhqir&quot;,&quot;path&quot;:&quot;/&quot;,&quot;name&quot;:&quot;ANID&quot;},{&quot;expiry&quot;:1608345811,&quot;secure&quot;:true,&quot;domain&quot;:&quot;.google.com&quot;,&quot;httpOnly&quot;:true,&quot;value&quot;:&quot;204=pqNuqf0QVu1KXkzs-fIVvwHEU6_8_7UEPqPi3PzwU1okt4qR-7wcCvRbD4lzceX1ERZtadKR2uWSYZtdytsWnFDyJR_Ds-2_JlPuy5IFvEQXR4h_igNPnnwbvY7Ro8KB9SVQI53FBkaqu9PXvlYG2C8hq3qLesyBXY2sogr2r1o&quot;,&quot;path&quot;:&quot;/&quot;,&quot;name&quot;:&quot;NID&quot;}]
-Current URL : https://www.google.com/
-Current Time: 2020-06-19 08:14:02022
-    at /Users/malmon/GDS/test-eol-ft-runner/node_modules/selenium-webdriver/lib/webdriver.js:842:17
-    at processTicksAndRejections (internal/process/task_queues.js:89:5)Error
-    at Driver.waitForElements (/Users/malmon/GDS/test-eol-ft-runner/node_modules/eol-ft-runner/utils/driver.js:70:48)
-    at processTicksAndRejections (internal/process/task_queues.js:89:5)Error
-    at /Users/malmon/GDS/test-eol-ft-runner/node_modules/eol-ft-runner/utils/driver.js:385:50
-    at processTicksAndRejections (internal/process/task_queues.js:89:5)
-    at async CustomWorld.&lt;anonymous&gt; (/Users/malmon/GDS/test-eol-ft-runner/test/step_definitions/sample.js:31:3)</failure>
+        <testcase name="Then User should see &quot;cucumber.io&quot; in the search results" classname="google-search;google-search-for-cucumber-js-documentation" time="0.752">
         </testcase>
     </testsuite>
 </testsuites>

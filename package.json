@@ -1,11 +1,12 @@
 {
   "name": "eol-ft-runner-tests",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Sample test project using eol-ft-runner package",
   "scripts": {
     "ft": "./node_modules/eol-ft-runner/bin/ft-runner",
     "ft:win": "node node_modules/eol-ft-runner/bin/ft-runner",
-    "execute:ft": "npm run ft -- --config=test/config.json --browser=chrome"
+    "execute:ft": "npm run ft -- --config=test/config.json --browser=chrome",
+    "execute:ft:win": "npm run ft:win -- --config=test/config.json --browser=chrome"
   },
   "keywords": [
     "eol-ft-runner",
@@ -17,7 +18,7 @@
   "devDependencies": {
     "@sitespeed.io/edgedriver": "^83.0.478-44",
     "chromedriver": "latest",
-    "eol-ft-runner": "^0.2.19",
+    "eol-ft-runner": "^0.2.20",
     "geckodriver": "^1.19.1"
   }
 }
