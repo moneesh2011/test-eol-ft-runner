@@ -1,10 +1,11 @@
 {
   "name": "eol-ft-runner-tests",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Sample test project using eol-ft-runner package",
   "scripts": {
     "ft": "./node_modules/eol-ft-runner/bin/ft-runner",
-    "execute:ft": "npm run ft -- --config=test/config.json --browser=chrome --tags=@sample"
+    "ft:win": "node node_modules/eol-ft-runner/bin/ft-runner",
+    "execute:ft": "npm run ft -- --config=test/config.json --browser=chrome"
   },
   "keywords": [
     "eol-ft-runner",
@@ -14,8 +15,9 @@
   "author": "Moneesh Prathap",
   "license": "ISC",
   "devDependencies": {
+    "@sitespeed.io/edgedriver": "^83.0.478-44",
     "chromedriver": "latest",
-    "eol-ft-runner": "^0.2.9",
+    "eol-ft-runner": "^0.2.19",
     "geckodriver": "^1.19.1"
   }
 }
