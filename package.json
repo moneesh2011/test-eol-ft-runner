@@ -1,6 +1,6 @@
 {
   "name": "eol-ft-runner-tests",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Sample test project using eol-ft-runner package",
   "scripts": {
     "ft": "./node_modules/eol-ft-runner/bin/ft-runner",
@@ -18,7 +18,7 @@
   "devDependencies": {
     "@sitespeed.io/edgedriver": "^83.0.478-44",
     "chromedriver": "latest",
-    "eol-ft-runner": "^0.2.20",
+    "eol-ft-runner": "0.3.2",
     "geckodriver": "^1.19.1"
   }
 }

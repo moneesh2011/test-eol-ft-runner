@@ -1,7 +1,4 @@
 const { Given, When, Then } = require('eol-ft-runner');
-const { Driver } = require('../../node_modules/eol-ft-runner/utils/driver');
-  
-
 
 /**
  * PAGE OBJECTS
@@ -17,7 +14,6 @@ var page = {
  * STEP DEFINITIONS
  */
 Given('User is in the Google webpage', async function () {
-  /** @implements {Driver} */
   await this.driver.navigateTo(page.url);
 });
 
